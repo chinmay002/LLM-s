@@ -1,11 +1,11 @@
 # LLM-s Rockybot 
 Rockybot is a chatbot where it uses OpenAI pai to retrieve answers to the question from the given URL links.
 
-Steps followed
-1> URL are loaded using UnstructuredURLLoader class 
-2> the loaded data is then split into chunks using RecursiveSPlitter class
-3> Then the chunks re converetd into embeddings using OpenAI embeddings
-4> Now to retrieve the query faster we used FASSAI as a vector index which gives the result faster
+# Steps followed
+* URL are loaded using UnstructuredURLLoader class 
+*  the loaded data is then split into chunks using RecursiveSPlitter class
+* Then the chunks re converetd into embeddings using OpenAI embeddings
+*Now to retrieve the query faster we used FASSAI as a vector index which gives the result faster
 
 
 
